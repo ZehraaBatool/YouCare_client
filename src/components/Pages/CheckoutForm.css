@@ -1,0 +1,138 @@
+
+.checkout_body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(221, 171, 207);
+  padding: 50px 0;
+}
+
+.checkout_container {
+  display: flex;
+  max-width: 1000px;
+  max-height: 800px;
+  margin: 5em auto;
+  padding: 10px;
+  background-color: rgb(255, 248, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.customer_details, .cart_summary {
+  flex: 1;
+  padding: 30px; /* Uniform padding on all sides */
+  margin: 10px; /* Margin to create space between the two sections */
+  background-color: transparent; /* Transparent background for inner sections */
+  border-radius: 10px;
+}
+
+.cart_summary {
+  max-width: 350px; /* Restrict width for cart summary */
+  min-height: fit-content; /* Start with minimum height */
+}
+
+.customer_details h2, .cart_summary h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.customer_details form {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer_details label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.customer_details input{
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+}
+.customer_details select {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 102%;
+  background-color: white; 
+
+}
+
+.button_group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button_group button {
+  padding: 12px;
+  width: 48%;
+  background-color: #9b348c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button_group button[type="button"] {
+  background-color: #e74c3c; /* Red color for Cancel button */
+}
+
+.button_group button:hover {
+  background-color: #872278;
+}
+
+.button_group button[type="button"]:hover {
+  background-color: #c0392b;
+}
+
+.cart_items {
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 10px 0;
+  max-height: 300px; /* Add max height for scroll */
+  overflow-y: auto;
+}
+
+.cart_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #555;
+}
+
+.total_amount {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 15px;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .customer_details {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
+.cart_summary_image {
+  width: 60px; /* Set a fixed width for images */
+  height: 70px; /* Set a fixed height for images */
+  border-radius: 10px; /* Rounded corners */
+  margin-right: 10px;
+  border: 2px solid rgb(215, 145, 195); /* Light pink border around images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  object-fit: cover; /* Cover the image while preserving aspect ratio */
+}

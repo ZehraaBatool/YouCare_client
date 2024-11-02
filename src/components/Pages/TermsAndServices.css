@@ -1,0 +1,95 @@
+.image-container {
+  width: 100%;
+}
+
+.full-width-image {
+  width: 100%;
+  display: block;
+}
+
+.Faqsbody {
+  background-color: #ddabcf; /* Keep the background color */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh; 
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Faqsbody p {
+  padding-left: 11em; /* Left padding for paragraph */
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+.Faqsbody ul,
+.Faqsbody li {
+  text-align: left; 
+  margin: 0 auto;
+  width: 60vw; 
+}
+
+.Faqsbody h1 {
+  font-size: 2em; /* Title font size */
+  margin-bottom: 20px;
+  text-align: center; /* Center title */
+}
+
+.Faqsbody h2, 
+.Faqsbody h3 {
+  font-size: 1.5em; /* Subtitle font size */
+  margin: 1em 0em;
+  padding-left: 7em; /* Left padding for subtitles */
+}
+
+.Faqsbody ul {
+  list-style-position: inside; /* List style position */
+  padding-left: 0; /* No padding for lists */
+}
+
+.section {
+  background-color: #ddabcf; /* Ensure this matches the body */
+  padding: 20px; /* Add padding for spacing */
+  margin-bottom: 10px; /* Space between sections */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+@media screen and (max-width: 800px) {
+  .Faqsbody p {
+    padding-left: 2em; /* Adjust padding for smaller screens */
+  }
+  
+  .Faqsbody h2, 
+  .Faqsbody h3 {
+    font-size: 1.5em; /* Maintain font size for smaller screens */
+    margin: 1em 0em;
+    padding-left: 2em; /* Adjust left padding for smaller screens */
+  }
+
+  .Faqsbody ul {
+    margin-top: 1em;
+    width: 70vw; /* Adjust width for lists */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Faqsbody p {
+    padding-left: 1em; /* Reduce padding for very small screens */
+  }
+  
+  .Faqsbody h1 {
+    font-size: 1.8em; /* Slightly reduce title size for small screens */
+  }
+  
+  .Faqsbody h2, 
+  .Faqsbody h3 {
+    font-size: 1.3em; /* Slightly reduce subtitle sizes for small screens */
+  }
+  
+  .Faqsbody ul {
+    width: 90vw; /* Expand list width for smaller screens */
+  }
+}
+
