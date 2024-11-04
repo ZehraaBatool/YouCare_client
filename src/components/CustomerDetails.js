@@ -5,7 +5,7 @@ export default function CustomerDetails() {
 
     const fetchCustomers = async () => {
         try {
-            const response = await fetch('http://localhost:5000/skincare/customers');
+            const response = await fetch('https://you-care-server.vercel.app/skincare/customers');
             const data = await response.json();
             setCustomers(data);
         } catch (error) {

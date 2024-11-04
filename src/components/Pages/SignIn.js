@@ -13,7 +13,7 @@ const SignInPage = () => {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5000/skincare/login', {
+      const response = await fetch('https://you-care-server.vercel.app/skincare/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

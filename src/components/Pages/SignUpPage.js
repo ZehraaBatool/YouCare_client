@@ -15,7 +15,7 @@ const SignUpPage = () => {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5000/skincare/sign-up', {
+      const response = await fetch('https://you-care-server.vercel.app/skincare/sign-up', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

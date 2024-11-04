@@ -5,7 +5,7 @@ export default function ProductDetails() {
 
     const fetchProducts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/skincare/product');
+            const response = await fetch('https://you-care-server.vercel.app/skincare/product');
             const data = await response.json();
             setProducts(data);
         } catch (error) {
@@ -15,7 +15,7 @@ export default function ProductDetails() {
 
     const deleteProduct = async (product_id) => {
         try {
-            const response = await fetch(`http://localhost:5000/skincare/product/${product_id}`, {
+            const response = await fetch(`https://you-care-server.vercel.app/skincare/product/${product_id}`, {
                 method: 'DELETE',
             });
             if (response.ok) {

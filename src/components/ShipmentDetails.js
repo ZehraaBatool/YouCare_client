@@ -14,7 +14,7 @@ const ShipmentDetails = () => {
 
     const fetchShipments = async () => {
         try {
-            const response = await fetch('http://localhost:5000/skincare/shipment');
+            const response = await fetch('https://you-care-server.vercel.app/skincare/shipment');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

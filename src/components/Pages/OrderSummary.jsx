@@ -39,7 +39,7 @@ const OrderSummary = () => {
         };
 
         try {
-            const response = await fetch('http://localhost:5000/skincare/checkout', {
+            const response = await fetch('https://you-care-server.vercel.app/skincare/checkout', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

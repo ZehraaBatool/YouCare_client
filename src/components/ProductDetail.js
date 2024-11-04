@@ -16,7 +16,7 @@ const ProductDetail = () => {
     useEffect(() => {
         const fetchProduct = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/skincare/product/${product_id}`);
+                const response = await fetch(`https://you-care-server.vercel.app/skincare/product/${product_id}`);
                 if (!response.ok) {
                     throw new Error('Product not found');
                 }
