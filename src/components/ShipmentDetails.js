@@ -28,7 +28,7 @@ const ShipmentDetails = () => {
     // Fetch shipment by shipping_id
     const searchShipment = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/skincare/shipment/${searchShippingID}`);
+            const response = await fetch(`https://you-care-server.vercel.app/skincare/shipment/${searchShippingID}`);
             if (response.status === 404) {
                 setSelectedShipment(null);
                 throw new Error('Shipment not found');

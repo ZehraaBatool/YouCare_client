@@ -28,7 +28,7 @@ export default function ProductDetails() {
 
     const editProductQuantity = async (product_id, quantity) => {
         try {
-            const response = await fetch(`http://localhost:5000/skincare/product/${product_id}/quantity`, {
+            const response = await fetch(`https://you-care-server.vercel.app/skincare/product/${product_id}/quantity`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ export default function ProductDetails() {
 
     const editProductPrice = async (product_id, price) => {
         try {
-            const response = await fetch(`http://localhost:5000/skincare/product/${product_id}/price`, {
+            const response = await fetch(`https://you-care-server.vercel.app/skincare/product/${product_id}/price`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

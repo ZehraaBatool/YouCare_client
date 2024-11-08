@@ -28,7 +28,7 @@ const RegisteredCustomers = () => {
     // Fetch customer by customer_id
     const searchCustomer = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/skincare/registered-customers/${searchCustomerID}`);
+            const response = await fetch(`https://you-care-server.vercel.app/skincare/registered-customers/${searchCustomerID}`);
             if (response.status === 404) {
                 setSelectedCustomer(null);
                 setIsModalOpen(false);

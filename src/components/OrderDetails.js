@@ -28,7 +28,7 @@ const OrderDetails = () => {
     // Fetch order by order_id
     const searchOrder = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/skincare/orderDetails/${searchOrderID}`);
+            const response = await fetch(`https://you-care-server.vercel.app/skincare/orderDetails/${searchOrderID}`);
             if (response.status === 404) {
                 setSelectedOrder(null);
                 throw new Error('Order not found');
