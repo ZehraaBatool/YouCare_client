@@ -54,7 +54,7 @@ export default function Footer() {
       <div>
         <div className="foot-end">
           <div className="privacy">
-            <Button sx={{ color: 'black', fontSize: '1em' }}> All rights reserved. YouCare © 2024</Button>
+            <Button sx={{ color: 'black', fontSize: '1em' }}> All rights reserved. GlowQuester © 2024</Button>
             <Link to="/terms-of-service">
               <Button sx={{ color: 'black', fontSize: '1em' }}>Terms of service</Button>
             </Link>
