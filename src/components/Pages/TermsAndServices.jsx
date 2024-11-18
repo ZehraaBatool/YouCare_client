@@ -23,7 +23,7 @@ export default function TermsOfService() {
         <section className='section'>
           <h2>1. Introduction</h2>
           <ol>
-            <li>This website is owned and operated by <strong>YouCare Pvt. Ltd.</strong>. Throughout the site, the terms “we”, “us”, and “our” refer to <strong>YouCare Ltd.</strong>.</li>
+            <li>This website is owned and operated by <strong>GlowQuester Pvt. Ltd.</strong>. Throughout the site, the terms “we”, “us”, and “our” refer to <strong>GlowQuester Ltd.</strong>.</li>
             <li>By visiting our site and/or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms and Conditions”), including any additional terms and conditions and policies referenced herein and/or available by hyperlink.</li>
             <li>We may update our Terms and Conditions periodically; each time you place an order on our website, you will be agreeing to the latest version of our Terms and Conditions.</li>
           </ol>
@@ -33,7 +33,7 @@ export default function TermsOfService() {
           <h2>2. About Us</h2>
           <ol>
             <li>Our registered office is located at <strong>xxx, Karachi, Sindh</strong>.</li>
-            <li>If you have any problems placing your order on our website or require support after placing an order, please contact us by calling <strong>+92 000 0001</strong> or sending an email to <strong>support@YouCare.com</strong>.</li>
+            <li>If you have any problems placing your order on our website or require support after placing an order, please contact us by calling <strong>+92 000 0001</strong> or sending an email to <strong>support@GlowQuester.com</strong>.</li>
           </ol>
         </section>
 

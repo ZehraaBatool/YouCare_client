@@ -18,17 +18,17 @@ export default function AboutUs() {
       <br />
       <br />
       <br />
-      <h1>About YouCare</h1>
-      <p><strong>YouCare</strong> is a personalized skincare platform offering tailored product recommendations through an interactive quiz. It features secure user accounts, a product catalog, cart management, and order tracking. With an easy-to-use interface, 
-        YouCare ensures a smooth skincare shopping experience. YouCare is an innovative, personalized skincare platform that empowers users to find products specifically suited to their unique skin needs. Through an interactive and insightful quiz, YouCare analyzes individual skin types, concerns, and goals to recommend curated skincare products.
+      <h1>About GlowQuester</h1>
+      <p><strong>GlowQuester</strong> is a personalized skincare platform offering tailored product recommendations through an interactive quiz. It features secure user accounts, a product catalog, cart management, and order tracking. With an easy-to-use interface, 
+      GlowQuester ensures a smooth skincare shopping experience. GlowQuester is an innovative, personalized skincare platform that empowers users to find products specifically suited to their unique skin needs. Through an interactive and insightful quiz, GlowQuester analyzes individual skin types, concerns, and goals to recommend curated skincare products.
         The platform provides:</p>
       <br />
       <div className='image-container'>
         <img src={about_image} alt='Glow' className='full-width-image' />
         <article>
-          <h2>At YouCare</h2>
-          <p>At <b>YouCare</b>, we offer a curated selection of premium cosmetics that cater to all your beauty needs.
-            Our products are crafted with the highest quality ingredients to ensure effectiveness and purity. Each item is designed to enhance your natural beauty and provide a touch of elegance to your daily routine. Experience the difference with YouCare, 
+          <h2>At GlowQuester</h2>
+          <p>At <b>GlowQuester</b>, we offer a curated selection of premium cosmetics that cater to all your beauty needs.
+            Our products are crafted with the highest quality ingredients to ensure effectiveness and purity. Each item is designed to enhance your natural beauty and provide a touch of elegance to your daily routine. Experience the difference with GlowQuester, 
             where every product is a step toward a more radiant you.</p>
         </article>
       </div>
@@ -55,12 +55,9 @@ export default function AboutUs() {
         <img src={about_image2} alt='Glow' className='full-width-image' />
         <article>
           <h2>Our Mission</h2>
-          <p>At <b>YouCare</b>, our mission is to empower individuals to achieve healthy, radiant skin through science-based skincare solutions. We are dedicated to providing high-quality, transparent, and effective products that enhance natural beauty while promoting sustainable practices. Our goal is to educate and inspire our community to make informed skincare choices, embracing self-care 
+          <p>At <b>GlowQuester</b>, our mission is to empower individuals to achieve healthy, radiant skin through science-based skincare solutions. We are dedicated to providing high-quality, transparent, and effective products that enhance natural beauty while promoting sustainable practices. Our goal is to educate and inspire our community to make informed skincare choices, embracing self-care 
             as a journey towards confidence and well-being.</p>
         </article>
-      </div>
-      <div className="team-container">
-        <h1>Meet The Team</h1>
       </div>
       <Footer />
     </div>

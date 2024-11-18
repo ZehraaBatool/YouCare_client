@@ -10,7 +10,7 @@ export default function Footer() {
     <div className='end'> 
       <div className="full">
         <div className="foot">
-          <h2>YouCare</h2>
+          <h2>GlowQuester</h2>
           <div className='icons'>
             <InstagramIcon fontSize='large' />
             <FacebookIcon fontSize='large' />
@@ -44,7 +44,7 @@ export default function Footer() {
         <div className="contact-foot">
           <Button sx={{ color: 'black', fontWeight: '600' }}>Contact-Us</Button>
           <Link to='/contact-page'>
-          <Button sx={{ color: 'black' }}>www.YouCare.com</Button>
+          <Button sx={{ color: 'black' }}>www.GlowQuester.com</Button>
           </Link>
           <Link to='/sign-up'>
           <Button sx={{ color: 'black' }}>Sign In</Button>

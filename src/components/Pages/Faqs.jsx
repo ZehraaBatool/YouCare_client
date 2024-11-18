@@ -187,7 +187,7 @@ export default function Faqs() {
             <br></br>
             <p>Love,</p>
             <br></br>
-            <p>YouCare 💝</p>
+            <p>GlowQuester💝</p>
             <br></br>
             <br></br>
             <Footer />
