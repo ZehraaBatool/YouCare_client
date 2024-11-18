@@ -30,7 +30,7 @@ import {
 import { styled, alpha, createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
 import Cart from '../Pages/CartContext';
-import logo from "../images/logo.png"
+import logo from "../images/logo.jpg"
 import {useCart} from "../Pages/CartContext"
 
 // Assuming 'Cart' component is imported and defined somewhere in your project
